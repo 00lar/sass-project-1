@@ -35,7 +35,7 @@ main {
   width: 50%;
   padding-top: 50px;
   color: #FFFFFF;
-  background-color: #8841D1;
+  background-color: #26C67B;
 }
 .perfil__avatar {
   display: block;
@@ -60,7 +60,7 @@ main {
   width: 100px;
   height: 40px;
   margin: 15px auto;
-  padding-top: 15px;
+  padding-top: 5px;
   border-radius: 20px;
   text-decoration: none;
   text-align: center;
@@ -137,7 +137,7 @@ main {
 }
 
 .galeria {
-  width: 50%;
+  width: 60%;
   height: 250px;
   margin: 10px auto;
   padding: 20px 0 0 30px;
@@ -168,4 +168,30 @@ main {
 }
 .galeria img {
   border-radius: 10px;
+}
+
+.articulos {
+  width: 40%;
+  padding: 50px 0 0 50px;
+}
+
+.articulo {
+  margin-bottom: 75px;
+  border-bottom: 3px solid #26C67B;
+}
+.articulo__Categoria {
+  font-weight: 500;
+  font-size: 16px;
+  color: #26C67B;
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+}
+.articulo__titulo {
+  font-size: 20px;
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+}
+.articulo__descripcion {
+  margin-bottom: 30px;
+  padding-right: 100px;
 }
